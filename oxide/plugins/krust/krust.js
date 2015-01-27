@@ -65,10 +65,12 @@ var krust = {
      * Server Initialization Done
      */
     OnServerInitialized : function () {
-
         //Bind 'krust_test' Chat Command to this.krust_test()
         command.AddChatCommand("krust_test", this.Plugin, "krust_test");
     },
+
+
+
 
 
     /**
