@@ -30,10 +30,11 @@ var krust = {
 var krust_core = function(plugin) {
 
     var plugin_core     = plugin;
+    var self            = this;
 
     this.init           = function() {
         print("Server is Krusty");
-        command.AddConsoleCommand("server.krust", this, "test");
+        command.AddConsoleCommand("server.krust", self, "test");
     };
 
     this.test           = function() {
