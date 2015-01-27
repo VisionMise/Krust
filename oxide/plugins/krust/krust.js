@@ -4,7 +4,7 @@ var krust = {
     Version : V(0, 0, 1),
     HasConfig : true,
 
-    krust : '',
+    krust : "",
 
     Init : function () {
         krust = new krust_core();
@@ -38,8 +38,6 @@ var krust_core = function(plugin) {
 
     this.init           = function() {
         print("Server is Krusty");
-
-        command.AddConsoleCommand("server.krust", self, "test");
     };
 
     this.test           = function(msg) {
